@@ -1,15 +1,16 @@
 # Computational-Modelling-of-Cooperation-Behavior-using-Bayesian-Inference
 
-Welcome to the project repository! This repository contains seven notebook files located in the `model` folder. These notebooks are the main files used for various tasks related to the project.
+Welcome to the project repository! This repository contains seven notebook files located in `Models` folder. These notebooks are the main files used for various tasks related to the project.
 
 ## Folder Structure
 
 The repository has the following structure:
 
-- `model`: Contains the main notebook files for the project.
-- `data_processing`: Contains the `Data_collection.py` file, which is required to run before using the main notebooks. Please note that this folder does not contain any data, and the user needs to provide the necessary data for processing.
+- `Models`: Contains the main notebook files for the project.
+- `Data_Processing`: Contains the `Data_collection.py` file, which is required to run before using the main notebooks. Please note that this folder does not contain any data, and the user needs to provide the necessary data for processing.
 - `MCMC_results`: Contains the results from MCMC runs.
-- `python_scripts`: Contains all the Python functions imported in the models.
+- `Python_scripts`: Contains all the Python functions imported in the models.
+
 ## Getting Started
 
 To use the notebooks in this repository, please follow the steps below:
@@ -18,23 +19,22 @@ To use the notebooks in this repository, please follow the steps below:
 
 pip install -r requirements.txt
 
+2. Run the `Data_collection.py` script located in the `Data_Processing` folder. This script is responsible for collecting and processing the data required for the main notebooks. Please provide the necessary data files or sources as instructed by the script. The processed data will be saved for later use in the main notebooks.
 
-
-2. Run the `Data_collection.py` script located in the `data_processing` folder. This script is responsible for collecting and processing the data required for the main notebooks. Please provide the necessary data files or sources as instructed by the script. The processed data will be saved for later use in the main notebooks.
-
-3. Once the data collection and processing are complete, you can proceed to use the main notebook files located in the `model` folder. These notebooks contain the core functionality and analysis for the project.
+3. Once the data collection and processing are complete, you can proceed to use the main notebook files located in the `Models` folder. These notebooks contain the core functionality and analysis for the project.
 
 ## Notebooks
 
-The following is a list of the main notebook file in the `model` folder:
+The following is a list of the main notebook file in the `Models` folder:
 
-1. `Evaluating_mcmc_multi.ipynb`: 
-2. `Evaluating_mcmc_one.ipynb`:
-3. `Fehr_schmidt_new.ipynb`:
-4. `MCMC_multi.ipynb`: 
-5. `MCMC_one.ipynb`: 
-6. `Utility_maping.ipynb`: 
-7. `classifyer.ipynb`: 
+1. `Classifier.ipynb`: contains classification of the best-fit model for each subject 
+2. `Evaluating_mcmc_multi.ipynb`: contains evaluations of the model support and model selection results
+3. `Evaluating_mcmc_one.ipynb`: contains evaluations of results from MCMC on the Fehr-Schmidt model
+4. `Fehr_schmidt_new.ipynb`: fits the Fehr-Schmidt model on each subject
+5. `MCMC_multi.ipynb`: runs MCMC with the Fehr-Schmidt model and the five alternative utility functions
+6. `MCMC_one.ipynb`: runs MCMC on the Fehr-Schmidt model
+7. `Utility_maping.ipynb`: maps out the Fehr-Schmidt model and the five alternative utility functions
+
 
 Feel free to explore and use these notebooks according to your needs.
 
