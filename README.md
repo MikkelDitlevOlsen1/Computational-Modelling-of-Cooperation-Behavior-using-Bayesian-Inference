@@ -1,4 +1,4 @@
-# Project Repository
+# Computational-Modelling-of-Cooperation-Behavior-using-Bayesian-Inference
 
 Welcome to the project repository! This repository contains seven notebook files located in the `model` folder. These notebooks are the main files used for various tasks related to the project.
 
