@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 
-## load answers
+## load data
 path = 'Data/Raw_ug/raw/CCNP_raw/data/CCNP_merge_wave1.csv'
 
 ug_1 = pd.read_csv(path)  
