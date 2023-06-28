@@ -26,15 +26,15 @@ pip install -r requirements.txt
 
 ## Notebooks
 
-The following is a brief description of each notebook file in the `model` folder:
+The following is a list of the main notebook file in the `model` folder:
 
-1. `Evaluating_mcmc_multi.ipynb`: Description of the functionality and purpose of Notebook 1.
-2. `Evaluating_mcmc_one.ipynb`: Description of the functionality and purpose of Notebook 2.
-3. `Notebook3.ipynb`: Description of the functionality and purpose of Notebook 3.
-4. `Notebook4.ipynb`: Description of the functionality and purpose of Notebook 4.
-5. `Notebook5.ipynb`: Description of the functionality and purpose of Notebook 5.
-6. `Notebook6.ipynb`: Description of the functionality and purpose of Notebook 6.
-7. `Notebook7.ipynb`: Description of the functionality and purpose of Notebook 7.
+1. `Evaluating_mcmc_multi.ipynb`: 
+2. `Evaluating_mcmc_one.ipynb`:
+3. `Fehr_schmidt_new.ipynb`:
+4. `MCMC_multi.ipynb`: 
+5. `MCMC_one.ipynb`: 
+6. `Utility_maping.ipynb`: 
+7. `classifyer.ipynb`: 
 
 Feel free to explore and use these notebooks according to your needs.
 
