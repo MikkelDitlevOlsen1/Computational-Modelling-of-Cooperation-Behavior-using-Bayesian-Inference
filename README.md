@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 ## Notebooks
 
-The following is a list of the main notebook file in the `Models` folder:
+The following is a brief description of each notebook file in the `model` folder:
 
 1. `Classifier.ipynb`: contains classification of the best-fit model for each subject 
 2. `Evaluating_mcmc_multi.ipynb`: contains evaluations of the model support and model selection results
