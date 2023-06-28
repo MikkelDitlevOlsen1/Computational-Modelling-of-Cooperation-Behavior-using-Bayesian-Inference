@@ -30,7 +30,7 @@ The following is a brief description of each notebook file in the `model` folder
 1. `Classifier.ipynb`: contains classification of the best-fit model for each subject 
 2. `Evaluating_mcmc_multi.ipynb`: contains evaluations of the model support and model selection results
 3. `Evaluating_mcmc_one.ipynb`: contains evaluations of results from MCMC on the Fehr-Schmidt model
-4. `Fehr_schmidt_new.ipynb`: fits the Fehr-Schmidt model on each subject
+4. `Fehr_schmidt.ipynb`: fits the Fehr-Schmidt model on each subject
 5. `MCMC_multi.ipynb`: runs MCMC with the Fehr-Schmidt model and the five alternative utility functions
 6. `MCMC_one.ipynb`: runs MCMC on the Fehr-Schmidt model
 7. `Utility_maping.ipynb`: maps out the Fehr-Schmidt model and the five alternative utility functions
