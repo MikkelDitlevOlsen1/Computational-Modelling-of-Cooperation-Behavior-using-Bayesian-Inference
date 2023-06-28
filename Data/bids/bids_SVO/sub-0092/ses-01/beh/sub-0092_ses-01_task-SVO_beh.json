@@ -1,0 +1,12 @@
+{
+ "ReadMe": "none",
+ "TaskName": "social value orientation questionaire",
+ "trial": {
+  "SVO type": {
+   "1": "altruism",
+   "2": "prosocialism",
+   "3": "indivisualism",
+   "4": "competitivesm"
+  }
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "ReadMe": "none",
+ "TaskName": "Pisonner dilemma of interperonal vs. human-computer",
+ "trial": {
+  "Outcome": {
+   "CC": "subject cooperate_partner cooperate",
+   "CD": "subject cooperate_partner defect",
+   "DC": "subject defect_partner cooperate",
+   "DD": "subject defect_partner defect"
+  }
+ }
+}
